@@ -1,4 +1,4 @@
-# PHP7 webserver base
+# Docker CentOS7 / Apache / PHP7 base
 
 ## Specifications
 * CentOS 7.4.1708
