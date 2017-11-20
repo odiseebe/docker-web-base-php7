@@ -1,5 +1,8 @@
 # Docker CentOS7 / Apache / PHP7 base
 
+## Description
+Dockerfile project for local development purpose
+
 ## Specifications
 * CentOS 7.4.1708
 * Apache webserver (httpd)
