@@ -16,6 +16,9 @@ RUN wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm \
 # Disable default apache welcome page
 ADD welcome.conf /etc/httpd/conf.d/welcome.conf
 
+# Override apache config
+ADD httpd.conf /etc/httpd/conf/httpd.conf
+
 # ADD phpinfo.php as default welcome page
 ADD phpinfo.php /var/www/html/index.php
 
